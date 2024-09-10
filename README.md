@@ -1,3 +1,4 @@
 My third lab
 Find All Duplicates
 Write a function (or static method in the case of Java) that accepts a list of integers and returns a list of only those integers that appear more than once.
+A nested loop finds duplicate values of a list of integers by comparing ech eleements with every other eleement and checking manually to find every possible pair. It start by taking the first element in the list and checking it agaist the other element in the list and repeats the process on the rest of the elements. It is good becuase  is easy to implment and doen not need extra strictures but is can struggle a lot with large list can take up more running time.the dictionary methode works looks at how many time an element appears in a list. it is more efficent for larger lists and does not make unesscar searches.
